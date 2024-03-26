@@ -25,8 +25,16 @@ public class DistanceTracker : MonoBehaviour
             }
             else
             {
+                // Calculate the distance traveled since the original position
+                totalDistance = Vector3.Distance(transform.position, originalPosition);
+                
                 // Output the total distance traveled to the console
                 Debug.Log($"Total distance traveled: {totalDistance:F2} meters");
+                distanceLog.Append($"{totalDistance:F2},");
+                distanceCount++;
+
+                // Reset the total distance
+                totalDistance = 0f;
 
                 // Output the logged distances in CSV format if the maximum count is reached
                 if (distanceCount >= MAX_DISTANCES)
@@ -35,31 +43,7 @@ public class DistanceTracker : MonoBehaviour
                     distanceLog.Clear();
                     distanceCount = 0;
                 }
-
-                totalDistance = 0f;
             }
         }
-
-        // If tracking, update the total distance traveled
-        if (isTracking)
-        {
-            UpdateTotalDistance();
-        }
-    }
-
-    void UpdateTotalDistance()
-    {
-        // Calculate the distance traveled since the last frame
-        float distance = Vector3.Distance(transform.position, originalPosition);
-
-        // Add the distance to the total
-        totalDistance += distance;
-
-        // Log the distance in CSV format
-        distanceLog.Append($"{distance:F2},");
-        distanceCount++;
-
-        // Reset the original position for the next frame
-        originalPosition = transform.position;
     }
 }

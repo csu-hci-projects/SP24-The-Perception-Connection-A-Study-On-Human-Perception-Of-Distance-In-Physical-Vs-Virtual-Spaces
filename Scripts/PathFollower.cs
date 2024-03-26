@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PathFollower : MonoBehaviour
 {
-    private float[] path = { 3f, 5f, 2f, 1f, 4f, 5f, 2f, 3f, 1f, 5f, 1f, 3f, 4f, 2f }; // Define the path as an array of floats
+    private float[] path = {3f, 5f, 2f, 1f, 4f, 5f, 4f, 2f, 3f, 1f, 5f, 1f, 3f, 4f, 2f}; // Define the path as an array of floats
     private int currentIndex = 0; // Keep track of the current index in the path
     private bool pathCompleted = false; // Flag to track if the path has been completed
 

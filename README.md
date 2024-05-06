@@ -13,6 +13,6 @@ Requested Specific Feedback -
 Demo and Code Overview Video - https://youtu.be/DH1zskAqPEQ
 Short Presentation Video - https://youtu.be/jOSPJtsdAyc
 
-Code - I chose to submit the entire Unity project files for the two Unity projects I used in my experiments. They can both be found here in this Google Drive folder - https://drive.google.com/drive/folders/1uLjCv_fl5yZG0rAE60a7TQRass4Q_iYY?usp=sharing. Instructions appear in the code video and readme in the Canvas .zipu submission on downloading and setting up these Unity projects.
+Code - I chose to submit the entire Unity project files for the two Unity projects I used in my experiments. They can both be found here in this Google Drive folder - https://drive.google.com/drive/folders/1uLjCv_fl5yZG0rAE60a7TQRass4Q_iYY?usp=sharing. Instructions appear in the code video and readme in the Canvas .zip submission on downloading and setting up these Unity projects.
 
 Otherwise, script files used for both virtual environment experiments can be found here in Github or were included in the .zip folder submitted to Canvas.

@@ -9,6 +9,7 @@ Requested Specific Feedback -
 4. What edits / areas of improvement do I need on the paper thus far? Is there anything you'd reccomend fleshing out or staying away from?
 
 **Final Submission**
+
 Demo and Code Overview Video - https://youtu.be/DH1zskAqPEQ
 Short Presentation Video - https://youtu.be/jOSPJtsdAyc
 
